@@ -1,0 +1,11 @@
+package me.about.intro.repository;
+
+import me.about.intro.entity.Home;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface HomeRepository extends JpaRepository<Home, String> {
+
+
+}
